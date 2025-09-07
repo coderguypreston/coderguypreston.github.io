@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston's Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=Meie+Script&family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="themeToggle" title="Toggle Light/Dark">🌗</div>
+
+  <header class="hero">
+    <h1>Projects</h1>
+    <p>Explore my work in C++, quant trading, and more!</p>
+    <nav>
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="about.html">Experiences</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="project-card">
+      <h2>Quant Momentum Trading Pipeline</h2>
+      <ul class="project-details">
+        <li>Built a Python dual‐momentum strategy across 30+ ETFs: <strong>5-10%</strong> annual returns, Sharpe > <strong>1.3</strong>, max drawdown < <strong>4%</strong></li>
+        <li>Automated end-to-end flow—data ingestion (yfinance), backtests (pandas, NumPy, vectorbt), bootstrap Sharpe CIs (SciPy)</li>
+        <li>Developed monthly rebalance script (APScheduler → orders.csv) and Flask/Jinja2 dashboard with Matplotlib equity & drawdown charts</li>
+      </ul>
+
+      <div class="proj-buttons">
+        <div class="tooltip">Languages
+          <span class="tooltiptext"><strong>Python</strong></span>
+        </div>
+        <div class="tooltip">Frameworks
+          <span class="tooltiptext"><strong>pandas</strong> | <strong>NumPy</strong> | <strong>SciPy</strong> 
+            | <strong>vectorbt</strong> | <strong>Flask</strong></span>
+        </div>
+        <div class="tooltip">Tools
+          <span class="tooltiptext"><strong>Git</strong> | <strong>Jupyter</strong> | <strong>APScheduler</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-card">
+        <h2>University of Michigan Directed Projects</h2>
+        <ul class="project-details">
+            <li><strong>P1:</strong> Letterman Word-Morph Solver
+            <ul>
+              <li>Implemented a C++ word-ladder solver that parses both simple and rule-based complex dictionaries, 
+                employs breadth-first and depth-first searches via std::deque search containers, 
+                and uses data structures alongside getopt_long for robust option parsing under change, insert, delete, swap morph rules.</li>
+            </ul>
+            </li>
+            <br>
+
+          <li><strong>P2:</strong> An image processor that uses seam carving for content-aware resizing of images.
+          <ul>
+            <li>Unit Testing, Debugging, Pointers, Strings, Streams, IO, and Abstract Data Types in C.</li>
+          </ul>
+          </li>
+          <br>
+
+
+          <li><strong>P3:</strong> Euchre
+          <ul>
+            <li>Abstract Data Types in C++, Derived Classes, Inheritance, Polymorphism, and Object-Oriented Programming.
+            </li>
+          </ul>
+          </li>
+          <br>
+
+
+          <li><strong>P4:</strong> Automatically identifying the subject matter of forum posts through machine learning techniques and training.
+          <ul>
+            <li>Use Sets and Maps, alongside learning the foundations of ML.</li>
+          </ul>
+          </li>
+          <br>
+
+
+          <li><strong>P5:</strong> Creating a text editor and linked-list implementation.
+          <ul>
+            <li>Use Container ADTs, Dynamic Memory, The Big Three, Linked Lists, and Iterators.
+            </li>
+          </ul>
+          </li>
+          <br>
+
+
+          <li><strong>P6:</strong> Implement a map container based on a BST structure.
+          <ul>
+            <li>Work with Functors, Templates, Recursion, BSTs, and Associative Containers.
+            </li>
+          </ul>
+          </li>
+          <br>
+        </ul>
+      </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="mailto:psornig@umich.edu">psornig@umich.edu</a> | 
+      <a href="https://linkedin.com/in/prestonsornig" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>
